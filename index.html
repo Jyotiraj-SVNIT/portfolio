@@ -1,15 +1,181 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jyotiraj Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    <h1>This is my portfolio webpage</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolores blanditiis inventore optio! Sed vel modi, maxime et omnis veniam vero dolores, incidunt dolore, beatae fugiat? Obcaecati, commodi soluta? Illo.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolores blanditiis inventore optio! Sed vel modi, maxime et omnis veniam vero dolores, incidunt dolore, beatae fugiat? Obcaecati, commodi soluta? Illo.</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolores blanditiis inventore optio! Sed vel modi, maxime et omnis veniam vero dolores, incidunt dolore, beatae fugiat? Obcaecati, commodi soluta? Illo.</p>
+    <!-- The navigation bar-->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    <!--  Welcome section -->
+
+    <section id="welcome-section" class="welcome-section">
+        <h1>This is Jyotiraj</h1>
+        <p>Welcome to my world!</p>
+    </section>
+
+    <!-- Projects section-->
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">SOME OF MY WORKS</h2>
+
+        <div class="projects-grid">
+            <a href="#" target="_blank" class="project project-tile">
+            <img class="project-image"
+            src="C:\Users\jyoti\OneDrive\Desktop\RIAC\Images\AbstractFace.png" 
+            alt="The image of an Abstract Face"/>
+
+            <p class="project-title">
+                <span class="code">&lt;</span>
+                Abstract Face
+                <span class="code">&#47;&gt;</span>
+              </p>
+            </a>
+            <a
+          href="https://codepen.io/kol_code/full/rNdERJy"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="C:\Users\jyoti\OneDrive\Desktop\Personal Portfolio\Images\Calculator.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            JavaScript Calculator
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a href="#" target="_blank" class="project project-tile">
+            <img class="project-image"
+            src="C:\Users\jyoti\OneDrive\Desktop\RIAC\Images\GirlOnGlass.png" 
+            alt="The image of an Abstract Face"/>
+
+            <p class="project-title">
+                <span class="code">&lt;</span>
+                Girl on Glass
+                <span class="code">&#47;&gt;</span>
+              </p>
+            </a>
+            <a
+            href="https://codepen.io/kol_code/full/XWELGLz"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="C:\Users\jyoti\OneDrive\Desktop\Personal Portfolio\Images\Wikipedia Viewer.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Wikipedia Viewer
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a href="#" target="_blank" class="project project-tile">
+            <img class="project-image"
+            src="C:\Users\jyoti\OneDrive\Desktop\RIAC\Images\BoyDancingOnFloor1.png" 
+            alt="The image of an Abstract Face"/>
+
+            <p class="project-title">
+                <span class="code">&lt;</span>
+                Dance on Floor
+                <span class="code">&#47;&gt;</span>
+              </p>
+            </a>
+            <a
+            href="https://codepen.io/kol_code/full/QWmXPOg"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="C:\Users\jyoti\OneDrive\Desktop\Personal Portfolio\Images\Quote Generator.png"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+             Quote Generator
+              <span class="code">&#47;&gt;</span>
+            </p>
+            </a>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>LET'S CONNECT...</h2>
+        </div>
+
+        <div class="contact-links">
+          
+          <a
+            id="profile-link"
+            href="https://github.com/Jyotiraj-SVNIT"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a
+            href="https://twitter.com/nath_jyotiraj"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a href="mailto:jnath1729@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send me mail</a
+          >
+          <a href="tel:+91 6001532852" class="btn contact-details"
+            ><i class="fas fa-mobile-alt"></i> Call me</a
+          >
+        </div>
+      </section>
+    <!--Footer Section-->
+    <footer>
+        <p>
+          Thanks for stopping by :)
+        </p>
+        <p>
+          &copy; Created by
+          <a href="#" target="_blank"
+            >Jyotiraj Nath </a>
+        </p>
+      </footer>
+  
+      <!-- End Footer Section -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+  </html>
 </body>
 </html>
